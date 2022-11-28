@@ -1,0 +1,32 @@
+{
+  "name": "jsaqa_3",
+  "version": "1.0.0",
+  "description": "jest test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --collectCoverage",
+    "eslint": "eslint"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "jsaqa"
+  ],
+  "author": "omelnikova",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "jest": "^27.3.1"
+  },
+  "collectCoverageFrom": [
+    "**/*.{js,jsx}",
+    "!**/node_modules/**",
+    "!**/coverage/**"
+  ],
+  "coverageThreshold": {
+    "branches": 100,
+    "functions": 100,
+    "lines": 100
+  }
+}
